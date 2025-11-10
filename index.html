@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>free sound</title>
+
+  <link rel="stylesheet" href="css/reset.css" />
+
+
+  <script src="js\jquery-3.7.1.min.js"></script>
+  <script src="js\example.js"></script>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/common.css" />
+  <link rel="stylesheet" href="css/styie.css" />
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="logo">
+      <img src="https://freesound.org/static/bw-frontend/dist/logo-text.2763a361.5e498ae4c912.svg"
+        alt="free_sound_Logo" />
+    </div>
+
+    <ul class="menu">
+      <li>
+        <a href="#">
+          <div class="icon icon_1_1">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M21 20.6q-.2 0-.375-.075T20.3 20.3L18 18H8q-.825 0-1.412-.587T6 16v-1h11q.825 0 1.413-.587T19 13V6h1q.825 0 1.413.588T22 8v11.575q0 .45-.3.738t-.7.287M4 12.175L5.175 11H15V4H4zM3 15.6q-.4 0-.7-.287t-.3-.738V4q0-.825.588-1.412T4 2h11q.825 0 1.413.588T17 4v7q0 .825-.587 1.413T15 13H6l-2.3 2.3q-.15.15-.325.225T3 15.6M4 11V4z" />
+            </svg>
+
+            <p>포럼</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M13.707 3.293A1 1 0 0 0 13 3H4a1 1 0 0 0-1 1v9c0 .266.105.52.293.707l8 8a.997.997 0 0 0 1.414 0l9-9a1 1 0 0 0 0-1.414zM12 19.586l-7-7V5h7.586l7 7z" />
+              <circle cx="8.496" cy="8.495" r="1.505" fill="currentColor" />
+            </svg>
+            <p>구매</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M11.95 18q.525 0 .888-.363t.362-.887t-.362-.888t-.888-.362t-.887.363t-.363.887t.363.888t.887.362m-.9-3.85h1.85q0-.825.188-1.3t1.062-1.3q.65-.65 1.025-1.238T15.55 8.9q0-1.4-1.025-2.15T12.1 6q-1.425 0-2.312.75T8.55 8.55l1.65.65q.125-.45.563-.975T12.1 7.7q.8 0 1.2.438t.4.962q0 .5-.3.938t-.75.812q-1.1.975-1.35 1.475t-.25 1.825M12 22q-2.075 0-3.9-.787t-3.175-2.138T2.788 15.9T2 12t.788-3.9t2.137-3.175T8.1 2.788T12 2t3.9.788t3.175 2.137T21.213 8.1T22 12t-.788 3.9t-2.137 3.175t-3.175 2.138T12 22m0-2q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8" />
+            </svg>
+            <p>도움말</p>
+          </div>
+        </a>
+      </li>
+
+      <li>
+        <a href="#">
+          <div class="icon icon_1_1">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path fill="currentColor"
+                d="M21 20.6q-.2 0-.375-.075T20.3 20.3L18 18H8q-.825 0-1.412-.587T6 16v-1h11q.825 0 1.413-.587T19 13V6h1q.825 0 1.413.588T22 8v11.575q0 .45-.3.738t-.7.287M4 12.175L5.175 11H15V4H4zM3 15.6q-.4 0-.7-.287t-.3-.738V4q0-.825.588-1.412T4 2h11q.825 0 1.413.588T17 4v7q0 .825-.587 1.413T15 13H6l-2.3 2.3q-.15.15-.325.225T3 15.6M4 11V4z" />
+            </svg>
+
+            <p>차트</p>
+
+          </div>
+        </a>
+      </li>
+    </ul>
+
+    <div class="login_wrap">
+
+      <button class="button_r">
+        <p>로그인</p>
+      </button>
+
+      <button class="button_r_li">
+        <p>회원가입</p>
+      </button>
+
+    </div>
+
+    <ul class="menu_2">
+
+      <li>
+        <div class="icon icon_1_2  icon_1_2__m">
+
+          <!-- 메뉴 -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M4 18q-.425 0-.712-.288T3 17t.288-.712T4 16h16q.425 0 .713.288T21 17t-.288.713T20 18zm0-5q-.425 0-.712-.288T3 12t.288-.712T4 11h16q.425 0 .713.288T21 12t-.288.713T20 13zm0-5q-.425 0-.712-.288T3 7t.288-.712T4 6h16q.425 0 .713.288T21 7t-.288.713T20 8z" />
+          </svg>
+
+        </div>
+      </li>
+
+      <div class="login_wrap_2">
+
+        <div class="icon icon_1_2  icon_1_2_l">
+
+          <!--로그인 -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 24 24">
+            <path fill="currentColor"
+              d="M13 21q-.425 0-.712-.288T12 20t.288-.712T13 19h6V5h-6q-.425 0-.712-.288T12 4t.288-.712T13 3h6q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm-1.825-8H4q-.425 0-.712-.288T3 12t.288-.712T4 11h7.175L9.3 9.125q-.275-.275-.275-.675t.275-.7t.7-.313t.725.288L14.3 11.3q.3.3.3.7t-.3.7l-3.575 3.575q-.3.3-.712.288T9.3 16.25q-.275-.3-.262-.712t.287-.688z" />
+          </svg>
+
+        </div>
+
+        <div class="icon icon_1_2  icon_1_2_p">
+
+          <!-- 회원가입 -->
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 48 48"
+            style="transform: rotateY(180deg);">
+            <g fill="none">
+              <path fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                stroke-width="4"
+                d="M19 20a7 7 0 1 0 0-14a7 7 0 0 0 0 14M4 40.8V42h30v-1.2c0-4.48 0-6.72-.872-8.432a8 8 0 0 0-3.496-3.496C27.92 28 25.68 28 21.2 28h-4.4c-4.48 0-6.72 0-8.432.872a8 8 0 0 0-3.496 3.496C4 34.08 4 36.32 4 40.8" />
+              <path fill="currentColor" fill-rule="evenodd" d="M38 13v12zm-6 6h12z" clip-rule="evenodd" />
+              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"
+                d="M38 13v12m-6-6h12" />
+            </g>
+          </svg>
+
+        </div>
+
+      </div>
+
+    </ul>
+
+  </header>
+
+  <!-- --------------- -->
+
+  <section class="section_1">
+
+    <div class="wrap_1">
+
+      <div class="bg_img bg_img_1">
+        <!-- <img src="img\se_1_bg_img.png" 
+                alt="프리사운드 배경이미지"> -->
+      </div>
+
+      <div class="position_wrap position_wrap_1">
+
+        <div class="title_wrap title_wrap_1">
+          <h2>당신이 원하는 사운드를 찾으세요</h2>
+
+          <p>
+            <a href="#"> 699,833개의 무료 사운드를 </a>
+
+            로 구성된 협업 컬렉션
+          </p>
+        </div>
+
+        <div class="from_wrap">
+          <div class="icon_wrap icon_wrap_1">
+            <div class="icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path fill="currentColor"
+                  d="M9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16m0-2q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14" />
+              </svg>
+            </div>
+          </div>
+
+          <form action="#" autocomplete="on">
+            <fieldset>
+              <label for="departure">
+                <!-- ------ 검색창 ----------- -->
+
+                <div class="bx--map::after"></div>
+                <input type="text" placeholder="소리 검색...." name="Search" />
+              </label>
+            </fieldset>
+          </form>
+        </div>
+
+        <div class="con_wrap con_wrap_1">
+          <div class="con con_1">
+            <a href="#">
+              <div class="icon_box icon_box_1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M20.82 6.49v1a3 3 0 0 1-.32 1.34a3 3 0 0 1-.87 1.07a3.1 3.1 0 0 1-1.25.57q-.301.06-.61.06q-.391 0-.77-.09l-4.24-1.2v8.22a4.79 4.79 0 1 1-1.5-3.47V2.46a.6.6 0 0 1 0-.2v-.08a.76.76 0 0 1 .54-.44h.44l6.3 1.79a3 3 0 0 1 2.22 2.93z" />
+                </svg>
+              </div>
+
+              <p>음악</p>
+            </a>
+          </div>
+
+          <div class="con con_1">
+            <a href="#">
+              <div class="icon_box icon_box_1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M22 6c-1 5-7 5-7 5H4c-1 0-2-1-2-1H1v4h1s1-1 2-1h.3c-.2.3-.3.6-.3 1v2c0 1.1.9 2 2 2h1v1h2v-1h1v1h2v-1h1v1h2v-1h1c1.1 0 2-.9 2-2v-2c0-.1 0-.3-.1-.4c1.7.6 3.5 1.8 4.1 4.4h1V6zM6 16.5c-.3 0-.5-.2-.5-.5v-2c0-.3.2-.5.5-.5h1v3zm3 0v-3h1v3zm3 0v-3h1v3zm4.5-.5c0 .3-.2.5-.5.5h-1v-3h1c.3 0 .5.2.5.5zM9 10H7V9h2zm3 0h-2V9h2zm3 0h-2V9h2z" />
+                </svg>
+              </div>
+
+              <p>효과음</p>
+            </a>
+          </div>
+
+          <div class="con con_1">
+            <a href="#">
+              <div class="icon_box icon_box_1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-width="2">
+                    <path d="M6 20h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2Z" />
+                    <path stroke-linejoin="round" d="M15 5v7l-3-2l-3 2V5" />
+                  </g>
+                </svg>
+              </div>
+
+              <p>사운드트랙</p>
+            </a>
+          </div>
+
+          <div class="con con_1">
+            <a href="#">
+              <div class="icon_box icon_box_1">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                  <path fill="currentColor"
+                    d="M14.6 8.075q0-1.075-.712-1.725T12 5.7q-.725 0-1.312.313t-1.013.912q-.4.575-1.088.663T7.4 7.225q-.35-.325-.387-.8t.237-.9q.8-1.2 2.038-1.862T12 3q2.425 0 3.938 1.375t1.512 3.6q0 1.125-.475 2.025t-1.75 2.125q-.925.875-1.25 1.363T13.55 14.6q-.1.6-.513 1t-.987.4t-.987-.387t-.413-.963q0-.975.425-1.787T12.5 11.15q1.275-1.125 1.688-1.737t.412-1.338M12 22q-.825 0-1.412-.587T10 20t.588-1.412T12 18t1.413.588T14 20t-.587 1.413T12 22" />
+                </svg>
+              </div>
+
+              <p>무작위 소리</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- --------------- -->
+
+  <section class="section_2">
+
+    <div class="wrap_2">
+      <div class="title_wrap title_wrap_2">
+        <h2>최신 사운드</h2>
+        <p>카테고리별로 나눠진 다양한 느낌의 최신 음악들</p>
+      </div>
+
+      <div class="con_wrap con_wrap_2">
+
+        <div class="move_wrap move_wrap_2 ">
+
+          <a href="#">
+            <div class="con con_2 con_2_1">
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>폭풍우가 치던 그날</h5>
+                <p class="none">성난 바람과 거센 천둥의 하모니</p>
+                <p>#어두운 #재즈 #천둥</p>
+
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="con con_2 con_2_2 con_2_s2">
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>소풍가는 날</h5>
+                <p class="none">소풍날의 어린아이의 행복한 느낌 그대로</p>
+                <p>#밝은 #캐주얼 #기쁨</p>
+
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+
+            <div class="con con_2 con_2_3">
+              <div class="bg_img_2"></div>
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>자전거 여행</h5>
+                <p class="none">페달을 밟으며 떠나는 여행</p>
+                <p>#신나는 #팝 #여행</p>
+
+              </div>
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="con con_2 bg_img_4_di">
+
+              <div class="bg_img_2"></div>
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>환상의 나라</h5>
+                <p class="none">약속의 네버랜드로</p>
+                <p>#신비로운 #무지개 #플룻</p>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="con con_2 con_2_1">
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>폭풍우가 치던 그날</h5>
+                <p class="none">성난 바람과 거센 천둥의 하모니</p>
+                <p>#어두운 #재즈 #천둥</p>
+
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="buttn_wrap buttn_wrap_2 ">
+        <button class="button_c"></button>
+        <button class="button_c button_r "></button>
+        <button class="button_c"></button>
+        <button class="button_c"></button>
+      </div>
+    </div>
+
+    <div class="wrap_22">
+
+      <div class="title_wrap title_wrap_22">
+        <h2>최신 사운드</h2>
+        <p>카테고리별로 나눠진 다양한 느낌의 최신 음악들</p>
+      </div>
+
+      <div class="con_wrap con_wrap_2">
+
+        <div class="move_wrap move_wrap_22 ">
+
+          <a href="#">
+            <div class="con con_22 con_2_1">
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>폭풍우가 치던 그날</h5>
+                <p>#어두운 #재즈 #천둥</p>
+
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="con con_22 con_2_2 con_2_s22">
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>소풍가는 날</h5>
+                <p>#밝은 #캐주얼 #기쁨</p>
+
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+
+            <div class="con con_22 con_2_3">
+              <div class="bg_img_2"></div>
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>자전거 여행</h5>
+                <p>#신나는 #팝 #여행</p>
+
+              </div>
+            </div>
+
+          </a>
+
+          <a href="#">
+
+            <div class="con con_22 bg_img_4_di">
+
+              <div class="bg_img_2"></div>
+
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>환상의 나라</h5>
+                <p>#신비로운 #무지개 #플룻</p>
+
+              </div>
+
+            </div>
+
+          </a>
+
+          <a href="#">
+            <div class="con con_22 con_2_1">
+              <div class="title_wrap title_wrap_2_2">
+
+                <h5>폭풍우가 치던 그날</h5>
+
+                <p>#어두운 #재즈 #천둥</p>
+
+              </div>
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+      <div class="buttn_wrap buttn_wrap_22 ">
+        <button class="button_c2"></button>
+        <button class="button_c2 button_r2 "></button>
+        <button class="button_c2"></button>
+        <button class="button_c2"></button>
+      </div>
+
+    </div>
+
+
+    </div>
+
+  </section>
+
+  <!-- --------------- -->
+
+  <section class="section_3">
+
+    <div class="wrap_3">
+
+      <div class="title_wrap title_wrap_3 main_title_wrap_3">
+        <h2>수많은 사람들이 선택한 사운드 모음</h2>
+      </div>
+
+      <div class="sound_wawe_wrap">
+
+
+        <a href="#">
+          <div class="big_con_wrap big_con_wrap_3">
+            <h3>가장 높은 평가를 받은 사운드</h3>
+
+            <div class="con con_3">
+              <div class="bg_img bg_img_3 bg_img_3_1">
+                <div class="icon_wrap icon_wrap_3 sound_wawe_icon">
+                  <div class="icon ">
+                    <!-- 재생 -->
+
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path fill="currentColor"
+                        d="M19.105 11.446a2.34 2.34 0 0 1-.21 1c-.15.332-.38.62-.67.84l-9.65 7.51a2.3 2.3 0 0 1-1.17.46h-.23a2.2 2.2 0 0 1-1-.24a2.29 2.29 0 0 1-1.28-2v-14a2.2 2.2 0 0 1 .33-1.17a2.27 2.27 0 0 1 2.05-1.1c.412.02.812.148 1.16.37l9.66 6.44c.294.204.54.47.72.78c.19.34.29.721.29 1.11" />
+                    </svg>
+                  </div>
+                  <p>3 : 52</p>
+                </div>
+              </div>
+
+              <div class="big_title_wrap big_title_wrap_3">
+                <div class="title_wrap_3">
+                  <div class="con_title_wrap con_title_wrap_3">
+                    <h5>소풍 가는날</h5>
+
+                    <div class="big_icon_wrap">
+                      <div class="icon_wrap icon_wrap_3">
+                        <div class="icon">
+                          <!-- -하트- -->
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                              d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812T2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.387 2.25t-1.363 2.412t-2.625 2.963T13.45 19.7z" />
+                          </svg>
+
+                          <p>29.8</p>
+                        </div>
+                      </div>
+
+                      <div class="icon_wrap icon_wrap_3">
+                        <div class="icon sound_wawe_icon">
+                          <!-- -다운로드- -->
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <g fill="none">
+                              <path
+                                d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
+                              <path fill="currentColor"
+                                d="M5 18.5a1.5 1.5 0 0 0 0 3h14a1.5 1.5 0 0 0 0-3zm12.303-7.556a1.5 1.5 0 0 0-2.121 0L13.5 12.625V4a1.5 1.5 0 0 0-3 0v8.626l-1.682-1.682a1.5 1.5 0 1 0-2.122 2.121l4.243 4.243a1.5 1.5 0 0 0 2.121 0l4.243-4.243a1.5 1.5 0 0 0 0-2.121" />
+                            </g>
+                          </svg>
+
+                          <p>5.3</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="title_wrap_3 title_wrap_3_1">
+                  <h5>아빈치</h5>
+                </div>
+
+                <div class="title_wrap_3 title_wrap_3_2">
+                  <p>2025 / 08 / 06</p>
+                  <h5>#밝은 #캐주얼 #기쁨</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <a href="#">
+          <div class="big_con_wrap big_con_wrap_3 ">
+            <h3>가장 많이 다운로드된 사운드</h3>
+
+            <div class="con con_3">
+              <div class="bg_img bg_img_3 bg_img_3_2">
+                <div class="icon_wrap icon_wrap_3 sound_wawe_icon">
+                  <div class="icon ">
+                    <!-- 재생 -->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                      <path fill="currentColor"
+                        d="M19.105 11.446a2.34 2.34 0 0 1-.21 1c-.15.332-.38.62-.67.84l-9.65 7.51a2.3 2.3 0 0 1-1.17.46h-.23a2.2 2.2 0 0 1-1-.24a2.29 2.29 0 0 1-1.28-2v-14a2.2 2.2 0 0 1 .33-1.17a2.27 2.27 0 0 1 2.05-1.1c.412.02.812.148 1.16.37l9.66 6.44c.294.204.54.47.72.78c.19.34.29.721.29 1.11" />
+                    </svg>
+                  </div>
+                  <p>1 : 03</p>
+                </div>
+              </div>
+
+
+
+              <div class="big_title_wrap big_title_wrap_3">
+                <div class="title_wrap_3">
+                  <div class="con_title_wrap con_title_wrap_3">
+                    <h5>a happy cat</h5>
+
+                    <div class="big_icon_wrap">
+                      <div class="icon_wrap icon_wrap_3">
+                        <div class="icon icon_3">
+                          <!-- -하트- -->
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                            <path fill="currentColor"
+                              d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812T2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.387 2.25t-1.363 2.412t-2.625 2.963T13.45 19.7z" />
+                          </svg>
+
+                          <p>3.1</p>
+                        </div>
+                      </div>
+
+                      <div class="icon_wrap icon_wrap_3">
+                        <div class="icon icon_3">
+                          <!-- -다운로드- -->
+
+                          <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                            <g fill="none">
+                              <path
+                                d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
+                              <path fill="currentColor"
+                                d="M5 18.5a1.5 1.5 0 0 0 0 3h14a1.5 1.5 0 0 0 0-3zm12.303-7.556a1.5 1.5 0 0 0-2.121 0L13.5 12.625V4a1.5 1.5 0 0 0-3 0v8.626l-1.682-1.682a1.5 1.5 0 1 0-2.122 2.121l4.243 4.243a1.5 1.5 0 0 0 2.121 0l4.243-4.243a1.5 1.5 0 0 0 0-2.121" />
+                            </g>
+                          </svg>
+                          <p>534.3</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="title_wrap_3 title_wrap_3_1">
+                  <h5>사운드 캣</h5>
+                </div>
+                <div class="title_wrap_3 title_wrap_3_2">
+                  <p>2025 / 09 / 04</p>
+                  <h5>#귀여운 #울음소리 #고양이</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </a>
+
+        <div class="big_con_wrap big_con_wrap_3">
+          <h3>많은 이들이 다운로드한 신규 팩</h3>
+
+          <div class="con con_3">
+            <div class="bg_img bg_img_3 bg_img_3_3">
+              <div class="icon_wrap icon_wrap_3 sound_wawe_icon">
+                <div class="icon">
+                  <!-- 재생 -->
+
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path fill="currentColor"
+                      d="M19.105 11.446a2.34 2.34 0 0 1-.21 1c-.15.332-.38.62-.67.84l-9.65 7.51a2.3 2.3 0 0 1-1.17.46h-.23a2.2 2.2 0 0 1-1-.24a2.29 2.29 0 0 1-1.28-2v-14a2.2 2.2 0 0 1 .33-1.17a2.27 2.27 0 0 1 2.05-1.1c.412.02.812.148 1.16.37l9.66 6.44c.294.204.54.47.72.78c.19.34.29.721.29 1.11" />
+                  </svg>
+                </div>
+                <p>1 : 58</p>
+              </div>
+            </div>
+
+            <div class="big_title_wrap big_title_wrap_3">
+              <div class="title_wrap_3">
+                <div class="con_title_wrap con_title_wrap_3">
+                  <h5>물의 흐름</h5>
+
+                  <div class="big_icon_wrap">
+                    <div class="icon_wrap icon_wrap_3">
+                      <div class="icon icon_3">
+                        <!-- -하트- -->
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24">
+                          <path fill="currentColor"
+                            d="m12 21l-1.45-1.3q-2.525-2.275-4.175-3.925T3.75 12.812T2.388 10.4T2 8.15Q2 5.8 3.575 4.225T7.5 2.65q1.3 0 2.475.55T12 4.75q.85-1 2.025-1.55t2.475-.55q2.35 0 3.925 1.575T22 8.15q0 1.15-.387 2.25t-1.363 2.412t-2.625 2.963T13.45 19.7z" />
+                        </svg>
+                        <p>3.1</p>
+                      </div>
+                    </div>
+
+                    <div class="icon_wrap icon_wrap_3">
+                      <div class="icon icon_3">
+                        <!-- -다운로드- -->
+
+                        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24">
+                          <g fill="none">
+                            <path
+                              d="M24 0v24H0V0zM12.594 23.258l-.012.002l-.071.035l-.02.004l-.014-.004l-.071-.036q-.016-.004-.024.006l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.016-.018m.264-.113l-.014.002l-.184.093l-.01.01l-.003.011l.018.43l.005.012l.008.008l.201.092q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.003-.011l.018-.43l-.003-.012l-.01-.01z" />
+                            <path fill="currentColor"
+                              d="M5 18.5a1.5 1.5 0 0 0 0 3h14a1.5 1.5 0 0 0 0-3zm12.303-7.556a1.5 1.5 0 0 0-2.121 0L13.5 12.625V4a1.5 1.5 0 0 0-3 0v8.626l-1.682-1.682a1.5 1.5 0 1 0-2.122 2.121l4.243 4.243a1.5 1.5 0 0 0 2.121 0l4.243-4.243a1.5 1.5 0 0 0 0-2.121" />
+                          </g>
+                        </svg>
+                        <p>14.9</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="title_wrap_3 title_wrap_3_1">
+                <h5>saja</h5>
+              </div>
+
+              <div class="title_wrap_3 title_wrap_3_2">
+                <p>2025 / 09 / 03</p>
+                <h5>#자연 #효과음 #물소리</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- --------------- -->
+
+  <section class="section_4">
+
+    <div class="wrap_4">
+
+      <div class="title_wrap_4">
+        <h2 class="h2_1">무엇을 고를지 망설여질 때</h2>
+
+        <h2 class="h2_2">오늘의 랜덤 사운드</h2>
+
+        <button class="button_r">
+          <p>더보기</p>
+        </button>
+      </div>
+
+
+      <div class="con_wrap con_wrap_4">
+        <div class="move_wrap move_wrap_4">
+          <div class="big_con_wrap big_con_wrap_4 big_con_wrap_4_1">
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_C">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_p">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>소풍가는날</h5>
+                    <p>#밝은 #캐주얼 #기쁨</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_mw">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>별이 내리는 하늘</h5>
+                    <p>#신비로운 #밤하늘 #신디사이저</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="big_con_wrap big_con_wrap_4 big_con_wrap_4_2">
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_s">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>폭풍우가 치던 그날</h5>
+                    <p>#어두운 #재즈 #천둥</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_bc">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>검은 도시</h5>
+                    <p>#어두운 #도시 #재즈</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_t">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>둘이 함께라면</h5>
+                    <p>#잔잔한 #발라드 #가을</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_di">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>환상의 나라</h5>
+                    <p>#신비로운 #무지개 #플롯</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="big_con_wrap big_con_wrap_4 big_con_wrap_4_3">
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_b">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_al">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_cf">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4">
+                <div class="bg_img bg_img_4 bg_img_4_b">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="wrap_4_2">
+
+      <div class="titelr_wrap_4_2">
+        <h2 class="h2_1">무엇을 고를지 망설여질 때</h2>
+        <h2 class="h2_2">오늘의 랜덤 사운드</h2>
+      </div>
+
+      <div class="con_wrap con_wrap_4_2">
+
+        <div class=" move_wrap move_wrap_4_2">
+
+          <div class="big_con_wrap big_con_wrap_4_22  big_con_wrap_4_2_1">
+
+
+            <a href="#">
+              <div class=" con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_C">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_p">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>소풍가는날</h5>
+                    <p>#밝은 #캐주얼 #기쁨</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class=" con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_mw">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>별이 내리는 하늘</h5>
+                    <p>#신비로운 #밤하늘 #신디사이저</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_b ">
+
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>자전거 여행</h5>
+                    <p>#신나는 #팝 #여행</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class=" con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_C">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="big_con_wrap big_con_wrap_4_22  big_con_wrap_4_2_2">
+
+            <a href="#" class="">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_s">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>폭풍우가 치던 그날</h5>
+                    <p>#어두운 #재즈 #천둥</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_bc">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>검은 도시</h5>
+                    <p>#어두운 #도시 #재즈</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_t">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>둘이 함께라면</h5>
+                    <p>#잔잔한 #발라드 #가을</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_di">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>환상의 나라</h5>
+                    <p>#신비로운 #무지개 #플롯</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_s">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>폭풍우가 치던 그날</h5>
+                    <p>#어두운 #재즈 #천둥</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="wrap_4_2 wrap_4_2_swiper">
+
+      <div class="titelr_wrap_4_2">
+        <h2 class="h2_1">무엇을 고를지 망설여질 때</h2>
+        <h2 class="h2_2">오늘의 랜덤 사운드</h2>
+      </div>
+
+      <div class="con_wrap con_wrap_4_2">
+
+        <div class=" move_wrap move_wrap_4_2 swiper">
+
+          <div class="swiper-wrapper big_con_wrap big_con_wrap_4_22 ">
+
+
+            <a href="#" class="swiper-slide" style="width: 200px;">
+              <div class=" con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_C">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide" style="width: 200px;">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_p">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>소풍가는날</h5>
+                    <p>#밝은 #캐주얼 #기쁨</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide" style="width: 200px;">
+              <div class=" con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_mw">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>별이 내리는 하늘</h5>
+                    <p>#신비로운 #밤하늘 #신디사이저</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide" style="width: 200px;">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_b ">
+
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>자전거 여행</h5>
+                    <p>#신나는 #팝 #여행</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#" class="swiper-slide none" style="width: 200px;">
+              <div class="swiper-slide con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_C">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>노란 병아리</h5>
+                    <p>#병아리 #귀여운 #울음소리</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+          </div>
+
+          <div class="big_con_wrap big_con_wrap_4_22  big_con_wrap_4_2_2">
+
+            <a href="#" class="">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_s">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>폭풍우가 치던 그날</h5>
+                    <p>#어두운 #재즈 #천둥</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_bc">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>검은 도시</h5>
+                    <p>#어두운 #도시 #재즈</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_t">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>둘이 함께라면</h5>
+                    <p>#잔잔한 #발라드 #가을</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_di">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>환상의 나라</h5>
+                    <p>#신비로운 #무지개 #플롯</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="con con_4_2">
+                <div class="bg_img bg_img_4 bg_img_4_s">
+                  <div class="con_in_title_wrap con_in_title_wrap_4">
+                    <h5>폭풍우가 치던 그날</h5>
+                    <p>#어두운 #재즈 #천둥</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- --------------- -->
+
+  <section class="section_5">
+
+    <div class="wrap wrap_5">
+
+      <div class="title_wrap title_wrap_5">
+
+        <h3>유저 포럼</h3>
+        <h3>좋아하는 아티스트의 소식을 확인하세요</h3>
+
+      </div>
+
+      <div class="button buttn_wrap_5">
+
+        <button class="button_li">
+          <p>게시글 쓰러가기</p>
+        </button>
+
+        <button class="button_r_li">
+          <p>포럼 보러가기</p>
+        </button>
+
+      </div>
+
+      <div class="con_wrap con_wrap_5">
+
+        <div class="top_cons">
+
+          <!-- 유저 1 -->
+
+          <a href="#">
+            <div class="con con_5">
+
+
+
+              <div class="con_title_wrap con_title_wrap_5">
+
+                <div class="top_title_wrap top_title_wrap_5">
+
+                  <div class="main_title_wrap_5">
+
+                    <h5>누적 5만명 다운에 대한 감사선물</h5>
+                    <p>1시간 전</p>
+                  </div>
+
+                  <h6>사운드 캣</h6>
+                </div>
+
+                <p>
+                  안녕하세요 사운드캣입니다. <br />
+                  이번에 제가 만든 사운드팩을 누적으로 3만명....
+                </p>
+
+                <div class="icon_wrap icon_wrap_5">
+
+                  <div class="icon_con icon_con_5">
+
+                    <div class="icon icon_5">
+
+                      <!-- 말풍선 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+
+                        <path fill="currentColor" fill-rule="evenodd"
+                          d="M9.5 4c-3.268 0-6 2.419-6 5.5c0 1.222.435 2.347 1.162 3.255l-.644 2.363a.504.504 0 0 0 .674.593l2.8-1.166a.5.5 0 0 0-.385-.923l-1.856.773l.445-1.63a.5.5 0 0 0-.108-.463C4.903 11.528 4.5 10.555 4.5 9.5c0-2.441 2.193-4.5 5-4.5c2.31 0 4.21 1.398 4.805 3.253c-3.18.094-5.805 2.477-5.805 5.497c0 3.081 2.732 5.5 6 5.5a6.5 6.5 0 0 0 2.192-.378l2.616 1.09c.376.156.782-.2.674-.594l-.644-2.363A5.18 5.18 0 0 0 20.5 13.75c0-2.807-2.267-5.064-5.142-5.444C14.758 5.814 12.335 4 9.5 4m0 9.75c0-2.441 2.193-4.5 5-4.5s5 2.059 5 4.5c0 1.055-.403 2.028-1.088 2.802a.5.5 0 0 0-.108.463l.445 1.63l-1.856-.773a.5.5 0 0 0-.377-.003a5.5 5.5 0 0 1-2.016.381c-2.807 0-5-2.058-5-4.5"
+                          clip-rule="evenodd" />
+
+                      </svg>
+
+                    </div>
+
+                    <p>455</p>
+
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <!-- 하트 -->
+
+                    <div class="icon icon_5_h">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
+                      </svg>
+                    </div>
+
+                    <p>450</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <div class="icon icon_5">
+                      <!-- 조회수 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m10.45 12.264l1.435 1.434q.217.237.556.237q.338 0 .574-.237l3.485-3.465v1.792q0 .194.143.335q.143.14.357.14q.194 0 .347-.143T17.5 12V9.308q0-.33-.24-.568q-.239-.24-.568-.24h-2.717q-.194 0-.334.153T13.5 9q0 .214.143.357T14 9.5h1.767l-3.317 3.362l-1.434-1.435q-.237-.242-.575-.242q-.339 0-.556.242l-2.839 2.82q-.146.159-.146.363t.146.344q.16.165.364.165t.344-.165zM5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.23 0 .423-.192t.192-.424V5.616q0-.231-.192-.424T18.384 5H5.616q-.231 0-.424.192T5 5.616v12.769q0 .23.192.423t.423.192M5 5v14z" />
+                      </svg>
+                    </div>
+
+                    <p>530</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sound_cat img_wrap img_wrap_5">
+                <img src="../main/img/uese_sound_cat.jpg" alt="유저 sound_cat" />
+              </div>
+            </div>
+          </a>
+
+          <!-- 유저 2 -->
+          <a href="#">
+            <div class="con con_5">
+              <div class="con_title_wrap con_title_wrap_5">
+                <div class="top_title_wrap top_title_wrap_5">
+                  <div class="main_title_wrap_5">
+                    <h5>공개 베타에 대한 일반 정보</h5>
+                    <p>3시간 전</p>
+                  </div>
+
+                  <h6>shahn32125</h6>
+                </div>
+
+                <p>
+                  안녕하세요 여러분<br />
+                  아시는 분들도 계시겠지만, 저희는 지난 몇 년 동안......
+                </p>
+
+                <div class="icon_wrap icon_wrap_5">
+                  <div class="icon_con icon_con_5">
+                    <div class="icon icon_5">
+                      <!-- 말풍선 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                          d="M9.5 4c-3.268 0-6 2.419-6 5.5c0 1.222.435 2.347 1.162 3.255l-.644 2.363a.504.504 0 0 0 .674.593l2.8-1.166a.5.5 0 0 0-.385-.923l-1.856.773l.445-1.63a.5.5 0 0 0-.108-.463C4.903 11.528 4.5 10.555 4.5 9.5c0-2.441 2.193-4.5 5-4.5c2.31 0 4.21 1.398 4.805 3.253c-3.18.094-5.805 2.477-5.805 5.497c0 3.081 2.732 5.5 6 5.5a6.5 6.5 0 0 0 2.192-.378l2.616 1.09c.376.156.782-.2.674-.594l-.644-2.363A5.18 5.18 0 0 0 20.5 13.75c0-2.807-2.267-5.064-5.142-5.444C14.758 5.814 12.335 4 9.5 4m0 9.75c0-2.441 2.193-4.5 5-4.5s5 2.059 5 4.5c0 1.055-.403 2.028-1.088 2.802a.5.5 0 0 0-.108.463l.445 1.63l-1.856-.773a.5.5 0 0 0-.377-.003a5.5 5.5 0 0 1-2.016.381c-2.807 0-5-2.058-5-4.5"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </div>
+
+                    <p>201</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <!-- 하트 -->
+
+                    <div class="icon icon_5_h">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
+                      </svg>
+                    </div>
+
+                    <p>301</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <div class="icon">
+                      <!-- 조회수 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m10.45 12.264l1.435 1.434q.217.237.556.237q.338 0 .574-.237l3.485-3.465v1.792q0 .194.143.335q.143.14.357.14q.194 0 .347-.143T17.5 12V9.308q0-.33-.24-.568q-.239-.24-.568-.24h-2.717q-.194 0-.334.153T13.5 9q0 .214.143.357T14 9.5h1.767l-3.317 3.362l-1.434-1.435q-.237-.242-.575-.242q-.339 0-.556.242l-2.839 2.82q-.146.159-.146.363t.146.344q.16.165.364.165t.344-.165zM5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.23 0 .423-.192t.192-.424V5.616q0-.231-.192-.424T18.384 5H5.616q-.231 0-.424.192T5 5.616v12.769q0 .23.192.423t.423.192M5 5v14z" />
+                      </svg>
+                    </div>
+
+                    <p>136</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="img_wrap img_wrap_5">
+                <img src="../main/img/uese_2.jpg" alt="유저 sound_cat" />
+              </div>
+            </div>
+          </a>
+
+
+        </div>
+
+        <div class="top_cons buttom_cons">
+          <!-- 유저 3 -->
+          <a href="#">
+            <div class="con con_5">
+
+              <div class="con_title_wrap con_title_wrap_5">
+
+                <div class="top_title_wrap top_title_wrap_5">
+
+                  <div class="main_title_wrap_5">
+                    <h5>커뮤니티에 도전하기</h5>
+                    <p>1주일 전</p>
+                  </div>
+
+                  <h6>클링크 뱅크</h6>
+                </div>
+
+                <p>
+                  행운을 빌어요! <br />
+                  어쨌든, 메갈로바니아는 이미 편집의....
+                </p>
+
+                <div class="icon_wrap icon_wrap_5">
+
+                  <div class="icon_con icon_con_5">
+
+                    <div class="icon icon_5">
+                      <!-- 말풍선 -->
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+
+                        <path fill="currentColor" fill-rule="evenodd"
+                          d="M9.5 4c-3.268 0-6 2.419-6 5.5c0 1.222.435 2.347 1.162 3.255l-.644 2.363a.504.504 0 0 0 .674.593l2.8-1.166a.5.5 0 0 0-.385-.923l-1.856.773l.445-1.63a.5.5 0 0 0-.108-.463C4.903 11.528 4.5 10.555 4.5 9.5c0-2.441 2.193-4.5 5-4.5c2.31 0 4.21 1.398 4.805 3.253c-3.18.094-5.805 2.477-5.805 5.497c0 3.081 2.732 5.5 6 5.5a6.5 6.5 0 0 0 2.192-.378l2.616 1.09c.376.156.782-.2.674-.594l-.644-2.363A5.18 5.18 0 0 0 20.5 13.75c0-2.807-2.267-5.064-5.142-5.444C14.758 5.814 12.335 4 9.5 4m0 9.75c0-2.441 2.193-4.5 5-4.5s5 2.059 5 4.5c0 1.055-.403 2.028-1.088 2.802a.5.5 0 0 0-.108.463l.445 1.63l-1.856-.773a.5.5 0 0 0-.377-.003a5.5 5.5 0 0 1-2.016.381c-2.807 0-5-2.058-5-4.5"
+                          clip-rule="evenodd" />
+                      </svg>
+
+                    </div>
+
+                    <p>332</p>
+
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <!-- 하트 -->
+
+                    <div class="icon icon_5_h">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
+                      </svg>
+                    </div>
+
+                    <p>590</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <div class="icon icon_5">
+                      <!-- 조회수 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m10.45 12.264l1.435 1.434q.217.237.556.237q.338 0 .574-.237l3.485-3.465v1.792q0 .194.143.335q.143.14.357.14q.194 0 .347-.143T17.5 12V9.308q0-.33-.24-.568q-.239-.24-.568-.24h-2.717q-.194 0-.334.153T13.5 9q0 .214.143.357T14 9.5h1.767l-3.317 3.362l-1.434-1.435q-.237-.242-.575-.242q-.339 0-.556.242l-2.839 2.82q-.146.159-.146.363t.146.344q.16.165.364.165t.344-.165zM5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.23 0 .423-.192t.192-.424V5.616q0-.231-.192-.424T18.384 5H5.616q-.231 0-.424.192T5 5.616v12.769q0 .23.192.423t.423.192M5 5v14z" />
+                      </svg>
+                    </div>
+
+                    <p>410</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="img_wrap img_wrap_5">
+                <img src="../main/img/uese_3.jpg" alt="유저" />
+              </div>
+            </div>
+          </a>
+
+          <!-- 유저 4 -->
+          <a href="#">
+            <div class="con con_5">
+              <div class="con_title_wrap con_title_wrap_5">
+                <div class="top_title_wrap top_title_wrap_5">
+                  <div class="main_title_wrap_5">
+                    <h5>누적 5만명 다운에 대한 감사선물</h5>
+                    <p>1시간 전</p>
+                  </div>
+
+                  <h6>아빈치</h6>
+                </div>
+
+                <p>
+                  안녕하세요, <br />
+                  여러 사운드를 업로드하면 비교하고 복사하면서......
+                </p>
+
+                <div class="icon_wrap icon_wrap_5">
+                  <div class="icon_con icon_con_5">
+                    <div class="icon icon_5">
+                      <!-- 말풍선 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                        <path fill="currentColor" fill-rule="evenodd"
+                          d="M9.5 4c-3.268 0-6 2.419-6 5.5c0 1.222.435 2.347 1.162 3.255l-.644 2.363a.504.504 0 0 0 .674.593l2.8-1.166a.5.5 0 0 0-.385-.923l-1.856.773l.445-1.63a.5.5 0 0 0-.108-.463C4.903 11.528 4.5 10.555 4.5 9.5c0-2.441 2.193-4.5 5-4.5c2.31 0 4.21 1.398 4.805 3.253c-3.18.094-5.805 2.477-5.805 5.497c0 3.081 2.732 5.5 6 5.5a6.5 6.5 0 0 0 2.192-.378l2.616 1.09c.376.156.782-.2.674-.594l-.644-2.363A5.18 5.18 0 0 0 20.5 13.75c0-2.807-2.267-5.064-5.142-5.444C14.758 5.814 12.335 4 9.5 4m0 9.75c0-2.441 2.193-4.5 5-4.5s5 2.059 5 4.5c0 1.055-.403 2.028-1.088 2.802a.5.5 0 0 0-.108.463l.445 1.63l-1.856-.773a.5.5 0 0 0-.377-.003a5.5 5.5 0 0 1-2.016.381c-2.807 0-5-2.058-5-4.5"
+                          clip-rule="evenodd" />
+                      </svg>
+                    </div>
+
+                    <p>53</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <!-- 하트 -->
+
+                    <div class="icon icon_5_h">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m12.1 18.55l-.1.1l-.11-.1C7.14 14.24 4 11.39 4 8.5C4 6.5 5.5 5 7.5 5c1.54 0 3.04 1 3.57 2.36h1.86C13.46 6 14.96 5 16.5 5c2 0 3.5 1.5 3.5 3.5c0 2.89-3.14 5.74-7.9 10.05M16.5 3c-1.74 0-3.41.81-4.5 2.08C10.91 3.81 9.24 3 7.5 3C4.42 3 2 5.41 2 8.5c0 3.77 3.4 6.86 8.55 11.53L12 21.35l1.45-1.32C18.6 15.36 22 12.27 22 8.5C22 5.41 19.58 3 16.5 3" />
+                      </svg>
+                    </div>
+
+                    <p>31</p>
+                  </div>
+
+                  <div class="icon_con icon_con_5">
+                    <div class="icon icon_5">
+                      <!-- 조회수 -->
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                        <path fill="currentColor"
+                          d="m10.45 12.264l1.435 1.434q.217.237.556.237q.338 0 .574-.237l3.485-3.465v1.792q0 .194.143.335q.143.14.357.14q.194 0 .347-.143T17.5 12V9.308q0-.33-.24-.568q-.239-.24-.568-.24h-2.717q-.194 0-.334.153T13.5 9q0 .214.143.357T14 9.5h1.767l-3.317 3.362l-1.434-1.435q-.237-.242-.575-.242q-.339 0-.556.242l-2.839 2.82q-.146.159-.146.363t.146.344q.16.165.364.165t.344-.165zM5.616 20q-.691 0-1.153-.462T4 18.384V5.616q0-.691.463-1.153T5.616 4h12.769q.69 0 1.153.463T20 5.616v12.769q0 .69-.462 1.153T18.384 20zm0-1h12.769q.23 0 .423-.192t.192-.424V5.616q0-.231-.192-.424T18.384 5H5.616q-.231 0-.424.192T5 5.616v12.769q0 .23.192.423t.423.192M5 5v14z" />
+                      </svg>
+                    </div>
+
+                    <p>530</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="img_wrap img_wrap_5">
+                <img src="../main/img/uese_4.jpg" alt="유저 " />
+              </div>
+
+            </div>
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- --------------- -->
+
+  <footer>
+
+    <div class="footer_wrap">
+
+      <div class="title_wrap_f">
+
+        <div class="title_wrap_f_1">
+
+          <p><a href="#">프리사운드 소개</a></p>
+
+          <p><a href="#">이용약관</a></p>
+
+          <p><a href="#">개인정보</a></p>
+
+        </div>
+
+        <div class="title_wrap_f_2">
+
+          <p><a href="#">도움말</a></p>
+
+          <p><a href="#">기부하기</a></p>
+
+        </div>
+
+        <div class="title_wrap_f_3">
+
+          <p><a href="#">무료 사운드 구매</a></p>
+
+          <p><a href="#">티셔츠 구매</a></p>
+
+        </div>
+
+      </div>
+
+      <div class="title_wrap">
+        <p>© 2025. Nara Her All rights reserved</p>
+      </div>
+
+
+    </div>
+  </footer>
+</body>
+
+</html>

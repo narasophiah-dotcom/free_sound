@@ -1,0 +1,517 @@
+/* 기본 세팅 */
+
+header {
+  width: 100%;
+  padding: 16px 200px;
+
+  margin: 0 auto;
+}
+
+section {
+  width: 100%;
+  /* background-color: aqua; */
+  /* 임시색 */
+
+  background-color: white;
+}
+
+section:not(.section_1) {
+  margin: 0, auto;
+  padding: 100px 200px;
+  margin: 0 auto;
+}
+
+footer {
+  padding: 40px 200px;
+
+  background-color: #353232;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.wrap {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* ------------------------ */
+
+/* ----글자 세팅---- */
+
+/* PC_버전_텍스트_스타일
+
+    h2 Noto Sans Kr 40px bold
+    h3 Noto Sans Kr 30px bold
+    h4 Noto Sans Kr 20px bold
+    h5 Noto Sans Kr 18px medium
+    p  Noto Sans Kr 16px renguiar 
+    
+*/
+
+.포인트_컬러 {
+  color: #ff3546;
+  color: #141424;
+  color: #fafafa;
+}
+
+.서브_컬러 {
+  color: #353232;
+  color: #f1f1f1;
+}
+
+h2,
+h3,
+h4,
+p,
+a {
+  letter-spacing: -2px;
+  color: #141424;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -1px;
+  line-height: 20px;
+}
+
+a {
+  letter-spacing: -1px;
+}
+
+/* ------------------------ */
+/* ------warp 세팅 -------- */
+
+.title_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  flex-direction: column;
+}
+
+.position_wrap {
+  width: 100%;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: 10;
+}
+
+.login_wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.from_wrap {
+  width: 750px;
+  height: 60px;
+
+  padding: 10px 20px;
+
+  background-color: white;
+  border-radius: 20px;
+
+  margin: 0 auto;
+  margin-bottom: 35px;
+
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.big_con_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.con_wrap {
+  display: flex;
+}
+
+.big_title_wrap {
+  width: 100%;
+
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.top_cons {
+  display: flex;
+  margin-bottom: 24px;
+}
+
+.buttom_cons {
+  display: flex;
+}
+
+.con_title_wrap {
+  display: flex;
+  align-items: start;
+}
+
+.move_wrap {
+  display: flex;
+  align-items: end;
+  position: absolute;
+
+  bottom: 0;
+  left: 0;
+}
+
+.big_icon_wrap {
+  display: flex;
+}
+
+.icon_wrap {
+  display: flex;
+  align-items: center;
+}
+
+.bottom_wrap {
+  display: flex;
+}
+
+/* ------------------------------- */
+/* -------------요소--------------- */
+
+.bg_img {
+  width: 100%;
+  height: 100%;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.con {
+  background-color: rgba(217, 217, 217, 1);
+}
+
+.icon_box {
+  padding: 10px;
+  width: 75px;
+  height: 75px;
+  border-radius: 25px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_box svg {
+  width: 45px;
+  height: 45px;
+  text-align: center;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+}
+
+/* -----버튼----- */
+
+.button {
+  height: 45px;
+
+  padding: 10px 30px;
+  border-radius: 35px;
+
+  display: flex;
+  align-items: center;
+}
+
+button {
+  height: 45px;
+
+  padding: 10px 30px;
+  border-radius: 35px;
+
+  border: none;
+
+  display: flex;
+  align-items: center;
+}
+
+button p {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.button_r p {
+  color: white;
+}
+
+.button_c {
+  height: 12px;
+  width: 12px;
+  padding: 0;
+
+  border-radius: 50%;
+
+  margin: 0 3px;
+
+  border: solid 1px rgba(20, 20, 36, 0.5);
+}
+
+.button_li {
+  padding: 10px 30px;
+  background-color: white;
+  border: solid 2px rgba(20, 20, 36, 0.5);
+}
+
+.button_li p {
+  font-size: 16px;
+}
+
+.button_r_li {
+  padding: 10px 30px;
+  background-color: white;
+  border: solid 2px #ff3546;
+}
+
+.button_r {
+  background-color: rgba(255, 53, 70, 1);
+  border: none;
+}
+
+.button_r_li p {
+  font-size: 16px;
+  color: #ff3546;
+}
+
+/* --------------------반응형 기본 세팅------------------------ */
+
+@media screen and (max-width: 1440px) {
+  header {
+    width: 100%;
+    padding: 12px 100px;
+
+    margin: 0 auto;
+  }
+
+  section:not(.section_1) {
+    padding: 40px 100px;
+    margin: 0 auto;
+  }
+
+  /* -----------------글자 설정-------------- */
+
+  /* tap_버전_텍스트_스타일
+
+    h2 Noto Sans Kr 35px bold
+    h3 Noto Sans Kr 30px bold
+    h4 Noto Sans Kr 24px bold
+    h5 Noto Sans Kr 16px medium
+    p  Noto Sans Kr 14px renguiar 
+    
+*/
+
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+
+  /* --------------- 요소 ------------------ */
+
+  button {
+    height: 40px;
+
+    padding: 9px 30px;
+    border-radius: 35px;
+  }
+
+  button p {
+    font-size: 16px;
+  }
+
+  /* -----------------------wrap들-------------- */
+
+  .from_wrap {
+    width: 450px;
+    height: 40px;
+    margin-bottom: 47px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  header {
+    width: 100%;
+    height: 50px;
+
+    padding: 17px 40px;
+
+    margin: 0 auto;
+  }
+
+  section:not(.section_1) {
+    padding: 40px;
+    margin: 0 auto;
+  }
+
+  footer {
+    padding: 40px;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  /* 기본 세팅 */
+
+  header {
+    width: 100%;
+    padding: 17px 20px;
+
+    margin: 0 auto;
+  }
+
+  section:not(.section_1) {
+    padding: 50px 20px;
+    margin: 0 auto;
+  }
+
+  /* -----------------글자 설정-------------- */
+
+  /* tap_버전_텍스트_스타일
+
+    h2 Noto Sans Kr 22px bold
+    h3 Noto Sans Kr 20px bold
+    h4 Noto Sans Kr 16px  medium
+    h5 Noto Sans Kr 12px  medium
+    p  Noto Sans Kr 12px  light
+    
+*/
+
+  h2 {
+    font-size: 22px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  h4 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: -1px;
+  }
+
+  /* --------------- 요소 ------------------ */
+
+  button {
+    height: 31px;
+
+    padding: 7px 10px;
+    border-radius: 35px;
+  }
+
+  /* -----------------------wrap들-------------- */
+
+  .from_wrap {
+    width: 350px;
+    height: 40px;
+    margin-bottom: 14px;
+  }
+}
+
+/* -------------------애니메이션--------------------- */
+
+@keyframes loop {
+  0% {
+    top: 0;
+  }
+
+  100% {
+    top: -390px;
+  }
+}
+
+@keyframes loop_a {
+  0% {
+    top: -367px;
+  }
+
+  100% {
+    top: 0;
+  }
+}
+
+@keyframes loop_b {
+  0% {
+    left: 0;
+  }
+
+  100% {
+    left: -475px;
+  }
+}
+
+@keyframes loop_c {
+  0% {
+    left: -475px;
+  }
+
+  100% {
+    left: 0;
+  }
+}
