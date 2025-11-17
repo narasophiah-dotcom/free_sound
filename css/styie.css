@@ -1623,6 +1623,10 @@ footer a {
 @media screen and (max-width: 768px) {
   /*------------------   hader  기본 폰 768p 반응형  ------------------ */
 
+  header {
+    padding: 7px 40px;
+  }
+
   .icon_1_2__m {
     width: 16px;
     height: 16px;
@@ -1826,6 +1830,16 @@ footer a {
   }
 
   .big_con_wrap_4_22 {
+    height: 100%;
+  }
+
+  .img_wrap_5 {
+    width: 70px;
+    height: 70px;
+  }
+
+  .img_wrap_5 img {
+    width: 120%;
     height: 100%;
   }
 
