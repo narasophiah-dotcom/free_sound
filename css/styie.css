@@ -558,6 +558,7 @@ header button p {
 
 .big_con_wrap h3 {
   color: rgba(250, 250, 250, 0.7);
+  font-size: 25px;
   margin-bottom: 14px;
 }
 
@@ -1488,7 +1489,7 @@ footer a {
   }
 
   .big_con_wrap h3 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   /* ------------------   section_4 폰과 텝 1200 반응형 ------------------ */
