@@ -65,10 +65,17 @@ footer {
 h2,
 h3,
 h4,
+h5,
 p,
 a {
-  letter-spacing: -2px;
+  letter-spacing: -0.05em;
+  line-height: 1.2em;
+
   color: #141424;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 h2 {
@@ -89,16 +96,12 @@ h4 {
 h5 {
   font-size: 18px;
   font-weight: 500;
+  letter-spacing: -1px;
 }
 
 p {
   font-size: 16px;
   font-weight: 400;
-  letter-spacing: -1px;
-  line-height: 20px;
-}
-
-a {
   letter-spacing: -1px;
 }
 
@@ -356,8 +359,8 @@ button p {
   }
 
   p {
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: -1px;
   }
 

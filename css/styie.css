@@ -370,6 +370,7 @@ header button p {
 
 .title_wrap_2_2 h5 {
   margin-bottom: 4px;
+  color: #fafafa;
 }
 
 .button_c2 {
@@ -506,6 +507,7 @@ header button p {
 
 .title_wrap_3_1 h5 {
   color: rgba(255, 53, 70, 0.5);
+  font-size: 15px;
   margin-bottom: 12px;
   font-weight: 400;
 }
@@ -558,7 +560,8 @@ header button p {
 
 .big_con_wrap h3 {
   color: rgba(250, 250, 250, 0.7);
-  font-size: 25px;
+  font-size: 18px;
+  font-weight: 500;
   margin-bottom: 14px;
 }
 
@@ -692,6 +695,10 @@ header button p {
   overflow: hidden;
 }
 
+.con_in_title_wrap_4 h5 {
+  color: #fafafa;
+}
+
 .con_4 {
   width: 237px;
   height: 300px;
@@ -753,9 +760,9 @@ header button p {
 }
 
 .con_in_title_wrap_4 h5 {
+  font-size: 18px;
   margin-bottom: 2px;
-  font-weight: 700;
-  font-size: 20px;
+  font-weight: 600;
 }
 
 .big_con_wrap_4 {
@@ -1019,23 +1026,36 @@ header button p {
 }
 
 .con_title_wrap_5 {
+  width: 60%;
   color: rgba(20, 20, 36, 0.5);
 
   display: flex;
   align-items: start;
   justify-content: space-between;
   flex-direction: column;
+
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .con_title_wrap_5 p {
+  width: 100%;
   margin-left: 3px;
   color: rgba(20, 20, 36, 0.5);
+
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .top_title_wrap_5 {
   align-items: start;
   flex-direction: column;
   margin-bottom: 30px;
+
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
 
   color: rgba(20, 20, 36, 0.5);
 }
@@ -1073,7 +1093,7 @@ header button p {
 }
 
 .icon_wrap_5 {
-  width: 168px;
+  width: 170px;
 
   margin-top: 16px;
 
@@ -1083,10 +1103,12 @@ header button p {
 }
 
 .icon_con_5 {
+  width: 33%;
   color: rgba(20, 20, 36, 0.5);
 
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 
 /* ----------footer-------- */
@@ -1147,6 +1169,10 @@ footer a {
   .title_wrap_4 {
     margin-right: 100px;
     height: 100%;
+  }
+
+  .con_5 {
+    width: 680px;
   }
 }
 
@@ -1471,7 +1497,7 @@ footer a {
   }
 
   .con_3 {
-    width: 280px;
+    width: 350px;
     height: 130px;
     padding: 10px;
   }
@@ -1503,7 +1529,7 @@ footer a {
   }
 
   .top_title_wrap_5 {
-    margin-bottom: 7px;
+    margin-bottom: 0;
   }
 
   /* ------------------   section_5 폰과 텝 1200 사이의 반응형 ------------------ */
@@ -1577,6 +1603,10 @@ footer a {
     flex-direction: column;
   }
 
+  .big_con_wrap_3 {
+    margin-top: 40px;
+  }
+
   .sound_wawe_wrap a:not(:last-child) {
     margin-right: 0;
     margin-bottom: 40px;
@@ -1588,7 +1618,7 @@ footer a {
   }
 
   .wrap_3 .main_title_wrap_3 {
-    margin-bottom: 63px;
+    margin-bottom: 40px;
   }
 
   .sound_wawe_wrap a:not(:last-child) {
@@ -1621,10 +1651,18 @@ footer a {
 /* -------------------------------------------------------------------------------------------------------------------------- */
 
 @media screen and (max-width: 768px) {
+  .wrap {
+    max-width: 768px;
+    width: 100%;
+  }
   /*------------------   hader  기본 폰 768p 반응형  ------------------ */
 
   header {
     padding: 7px 40px;
+  }
+
+  .menu_2 {
+    width: 20%;
   }
 
   .icon_1_2__m {
@@ -1686,7 +1724,7 @@ footer a {
   }
 
   .con_3 {
-    width: 350px;
+    width: 300px;
     height: 150px;
     padding: 10px;
   }
@@ -1725,7 +1763,7 @@ footer a {
   }
 
   .title_wrap_3 h2 {
-    font-size: 20px;
+    font-size: 25px;
     margin-bottom: 0;
   }
 
@@ -1791,7 +1829,7 @@ footer a {
 
   /* ------------------   section_5 기본 폰 768p 반응형 ------------------ */
   .wrap_5 h3 {
-    font-size: 20px;
+    font-size: 19px;
   }
 
   .main_title_wrap_5 h5 {
@@ -1870,6 +1908,30 @@ footer a {
 
 @media screen and (max-width: 393px) {
   /* ------------------   section_5 393 폰 반응형 ------------------ */
+
+  .position_wrap_1 {
+    padding: 0 20px;
+  }
+
+  .from_wrap {
+    width: 100%;
+  }
+  .title_wrap_1 h2 {
+    font-size: 20px;
+  }
+
+  .title_wrap_1 p {
+    font-size: 13px;
+  }
+  .title_wrap_3 h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+
+  .con_1 a p {
+    white-space: nowrap;
+  }
+
   .wrap_4_2 {
     display: none;
   }
@@ -1889,7 +1951,7 @@ footer a {
   }
 
   .con_5 {
-    width: 350px;
+    width: 300px;
     height: 120px;
     padding: 10px 15px;
   }
@@ -1915,6 +1977,10 @@ footer a {
     height: 200px;
   }
 
+  .wrap_5 h3 {
+    font-size: 16px;
+  }
+
   .button_li {
     display: flex;
     align-items: center;
@@ -1922,6 +1988,10 @@ footer a {
 
     padding: 7px 10px;
     width: 119px;
+  }
+
+  .buttn_wrap_5 .button_li {
+    margin-right: 10px;
   }
 
   .button_r_li {
