@@ -567,7 +567,7 @@ header button p {
   color: rgba(250, 250, 250, 0.7);
   font-size: 18px;
   font-weight: 500;
-  margin-bottom: 14px;
+  margin-TOP: 14px;
 }
 
 .con_wrap_3 {
@@ -1504,7 +1504,7 @@ footer a {
   }
 
   .con_3 {
-    width: 350px;
+    width: 320px;
     height: 130px;
     padding: 10px;
   }
