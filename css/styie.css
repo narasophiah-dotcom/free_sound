@@ -524,6 +524,11 @@ header button p {
   color: rgba(20, 20, 36, 0.5);
 }
 
+.title_wrap_3_2 h5 {
+
+  opacity: 0.5;
+}
+
 .title_wrap_3 h2 {
   color: #fafafa;
 }
@@ -823,6 +828,8 @@ header button p {
 .titelr_wrap_4_2 h2 {
   font-size: 30px;
 }
+
+
 
 .con_wrap_4_2 {
   width: 100%;
@@ -1655,6 +1662,7 @@ footer a {
     max-width: 768px;
     width: 100%;
   }
+
   /*------------------   hader  기본 폰 768p 반응형  ------------------ */
 
   header {
@@ -1916,6 +1924,7 @@ footer a {
   .from_wrap {
     width: 100%;
   }
+
   .title_wrap_1 h2 {
     font-size: 20px;
   }
@@ -1923,6 +1932,7 @@ footer a {
   .title_wrap_1 p {
     font-size: 13px;
   }
+
   .title_wrap_3 h2 {
     font-size: 20px;
     margin-bottom: 0;
