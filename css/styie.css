@@ -525,7 +525,6 @@ header button p {
 }
 
 .title_wrap_3_2 h5 {
-
   opacity: 0.5;
 }
 
@@ -565,9 +564,9 @@ header button p {
 
 .big_con_wrap h3 {
   color: rgba(250, 250, 250, 0.7);
-  font-size: 18px;
+  font-size: 20px;
   font-weight: 500;
-  margin-TOP: 14px;
+  margin-top: 14px;
 }
 
 .con_wrap_3 {
@@ -828,8 +827,6 @@ header button p {
 .titelr_wrap_4_2 h2 {
   font-size: 30px;
 }
-
-
 
 .con_wrap_4_2 {
   width: 100%;
@@ -1546,6 +1543,14 @@ footer a {
     height: 160px;
   }
 
+  .main_title_wrap_5 h5 {
+    font-size: 16px;
+  }
+
+  .top_title_wrap_5 h6 {
+    font-size: 14px;
+  }
+
   .img_wrap_5 {
     height: 80px;
     width: 80px;
@@ -1553,6 +1558,7 @@ footer a {
 
   .con_title_wrap_5 p {
     margin-left: 0;
+    font-size: 15px;
   }
 
   .main_title_wrap_5 p {
@@ -1846,7 +1852,7 @@ footer a {
 
   .con_5 {
     width: 380px;
-    padding: 10px 15px;
+    padding: 15px;
   }
 
   .top_title_wrap_5 h6 {
